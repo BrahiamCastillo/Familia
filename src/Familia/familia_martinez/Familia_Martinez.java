@@ -175,6 +175,7 @@ public class Familia_Martinez extends Familia {
 		@Override
 		public void Comportamiento() {
 			// TODO Auto-generated method stub
+			System.out.println("");
 			
 		}
 
