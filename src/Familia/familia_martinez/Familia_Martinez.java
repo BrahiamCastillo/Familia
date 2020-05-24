@@ -8,6 +8,7 @@ public class Familia_Martinez extends Familia {
 	public Familia_Martinez(String familia, String patriarca, String tioabuelo) {
 		super(familia, patriarca, tioabuelo);
 		// TODO Auto-generated constructor stub
+		System.out.println("Miembro de la familia "+familia+".");
 	
 	}
 	
@@ -249,7 +250,7 @@ public class Familia_Martinez extends Familia {
 		public Tio_Abuelo(String familia, String patriarca, String tioabuelo) {
 			super(familia, patriarca, tioabuelo);
 			// TODO Auto-generated constructor stub
-			System.out.println("El tio-abuelo de la familia Martínez es "+tioabuelo+" es el hermano de la esposa de "+patriarca+" y patriarca de la familia Sánchez.");
+			System.out.println("El tio-abuelo de la familia Martínez es "+tioabuelo+", es el hermano de la esposa de "+patriarca+" y patriarca de la familia Sánchez.");
 		}
 
 		@Override
