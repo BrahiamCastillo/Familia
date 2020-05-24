@@ -45,7 +45,7 @@ public class Familia_Martinez extends Familia {
 		public Abuela(String familia, String patriarca, String tioabuelo) {
 			super(familia, patriarca, tioabuelo);
 			// TODO Auto-generated constructor stub
-			System.out.println("Abuela de la familia "+familia+" con nombre Griselda Rojas.");
+			System.out.println("Abuela de la familia "+familia+" con nombre Griselda Sánchez.");
 
 		
 		}
@@ -169,20 +169,20 @@ public class Familia_Martinez extends Familia {
 		@Override
 		public void Acciones() {
 			// TODO Auto-generated method stub
-			System.out.println("Armando es un joven que está apunto de terminar la secundaria, al igual que Rogelio, es totalmente dedicado a sus estudios académicos.");
+			System.out.println("Armando es un joven que está apunto de terminar la secundaria, al igual que Rogelio es totalmente dedicado a sus estudios académicos.");
 		}
 
 		@Override
 		public void Comportamiento() {
 			// TODO Auto-generated method stub
-			System.out.println("");
+			System.out.println("Armando es un joven mas andariego, le gusta bastante mas las actividades sociales.");
 			
 		}
 
 		@Override
 		public void Psicologia() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("La psicología de Armando se basa en ser bastante expresivo, a diferencia de su hermano, le encantan las actividades sociales y tener participación activa en ellas.");
 		}
 		
 	}
@@ -192,25 +192,26 @@ public class Familia_Martinez extends Familia {
 		public Tio(String familia, String patriarca, String tioabuelo) {
 			super(familia, patriarca, tioabuelo);
 			// TODO Auto-generated constructor stub
+			System.out.println("El tio de la familia "+familia+" es hermano menor de Ricardo Martínez y hijo menor del patriarca y abuelo "+patriarca+", su nombre es David Martínez.");
 			
 		}
 
 		@Override
 		public void Acciones() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("David Martínez es el hermano menor de Ricardo y considerado como uno de los tios de la familia, se dedica a ellos con mucho amor y sirve de soporte para el patriarcada y el padre.");
 		}
 
 		@Override
 		public void Comportamiento() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("David Martínez se comporta de una manera recta frente a las cabecillas de la familia y no duda en brindar amor a todos sus sobrinos de ámbas partes.");
 		}
 
 		@Override
 		public void Psicologia() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("La psicología de David Martínez se basa en la estabildad emocional y en la tolerancia en cuando a los actos de los miembros familiares.");
 		}
 		
 	}
@@ -220,25 +221,25 @@ public class Familia_Martinez extends Familia {
 		public Tia(String familia, String patriarca, String tioabuelo) {
 			super(familia, patriarca, tioabuelo);
 			// TODO Auto-generated constructor stub
-			
+			System.out.println("Una de las tías de la familia "+familia+", es esposa de David Martínez, su nombre es Isabella Castillo.");
 		}
 
 		@Override
 		public void Acciones() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("Isabella es una persona responsable en cuanto a sus empleos y encargos, suele dedicarse mayormente a estos y por lo tanto no es muy unida a la familia.");
 		}
 
 		@Override
 		public void Comportamiento() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("Isabella no siente tanto apego a sus sobrinos políticos, que vienen siendo los miembros de la familia "+familia+" pero tampoco el desapego es tan grande como para considerarlo como desprecio.");
 		}
 
 		@Override
 		public void Psicologia() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("La psicología de Isabella se basa en la seguridad en sí misma y la poca expresión que posee en cuanto sus sentimientos.");
 		}
 		
 	}
@@ -248,25 +249,25 @@ public class Familia_Martinez extends Familia {
 		public Tio_Abuelo(String familia, String patriarca, String tioabuelo) {
 			super(familia, patriarca, tioabuelo);
 			// TODO Auto-generated constructor stub
-			
+			System.out.println("El tio-abuelo de la familia Martínez es "+tioabuelo+" es el hermano de la esposa de "+patriarca+" y patriarca de la familia Sánchez.");
 		}
 
 		@Override
 		public void Acciones() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("El tio-abuelo "+tioabuelo+" se dedica mayormente a dirigir a la familia Sánchez y encaminarlas en el buen camino.");
 		}
 
 		@Override
 		public void Comportamiento() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("El tio-abuelo "+tioabuelo+" de la familia "+familia+" se comporta de manera respetuosa con la familia y por ello siempre vela por la unión de la familia Sánchez y la familia "+familia+".");
 		}
 
 		@Override
 		public void Psicologia() {
 			// TODO Auto-generated method stub
-			
+			System.out.println("La psicología del tio-abuelo "+tioabuelo+" es parecieda al patriarca "+patriarca+" salvo por ligeras diferencias, diferencias como la tolerancia, ya que este individuo tiene muy poca.");
 		}
 		
 	}
